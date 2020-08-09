@@ -2184,7 +2184,46 @@ font-family: 'Mulish', sans-serif;
 
 		/* === Commercial Services Page ===== */
 
-		
+	.logo-clients{
+		width: 100%;
+		display: block;
+		margin-bottom: 40px;
+	}
+
+	.logo-clients h2{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		color: #1d7071;
+		font-size: 36px;
+		text-align: center;
+	
+		width: 100%;
+		margin-bottom: 5px;
+		margin-top: 30px;
+	}
+
+	.logo-clients li{
+		display: inline-block;
+		list-style-type: none;
+		width: 18%;
+	}
+
+	.logo-clients li img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo-clients h3{
+		font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #1d7071;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: 0x;
+	}
 	#new-top {
 		padding-top: 35px;
 		padding-bottom: 35px;
@@ -2247,9 +2286,10 @@ font-family: 'Mulish', sans-serif;
 
 		#comm-inside {
 		padding-top: 5px;
-		padding-bottom: 35px;
+		padding-bottom: 15px;
 		position: relative;
 		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
 		}
 
 		#comm-inside .in-info-1{
@@ -2293,7 +2333,15 @@ font-family: 'Mulish', sans-serif;
 
 
 		.description-comm{
-				padding-left: 35px;
+				padding-left:5px;
+				margin-bottom: 20px;
+		}
+
+		.description-comm img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		
 		}
 		
 	.description-comm  p{
@@ -2304,6 +2352,8 @@ font-family: 'Mulish', sans-serif;
 	text-align: left;
 	margin-top: 10px;
 	font-family: 'Poppins', sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
 
 	}
 
@@ -2317,6 +2367,7 @@ font-family: 'Mulish', sans-serif;
 	margin-bottom: 20px;
 	font-family: 'Poppins', sans-serif;
 
+
 	}
 
 	.description-comm  h6{
@@ -2328,12 +2379,26 @@ font-family: 'Mulish', sans-serif;
 	margin-top: 20px;
 	margin-bottom: 5px;
 	font-family: 'Poppins', sans-serif;
+	margin-left: 15px;
 
 	}
 
 	.description-comm  h6 .fa{
 		font-size: 18px;
 		margin-right: 10px;
+	}
+
+	.services-h4{
+		margin-top: 30px;
+		width: 100%;
+		font-weight: 600;
+		color: #1d7071;
+		font-size: 25px;
+		text-align: center;
+
+		margin-bottom: 5px;
+		font-family: 'Poppins', sans-serif;
+
 	}
 
 
@@ -2934,7 +2999,7 @@ text-align: left;
 		/*home gallery */
 
 		.home-gallery{
-			padding-top:35px;
+			padding-top:15px;
 		}
 
 		.home-gallery h4 {
@@ -3174,6 +3239,7 @@ text-align: left;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -20px;
 	}
 
 
@@ -3223,8 +3289,7 @@ text-align: left;
 
 	.contact-us-form{
 	border-radius: 5px;
-	padding-left: 30px;padding-right: 30px;
-	padding-bottom: 30px;padding-top:15px;
+	padding: 0;
 	width: 100%;
 	background-color:#fff;
 
@@ -3272,21 +3337,40 @@ text-align: left;
 
 
 	}
-
+	.contact-us-form .quote-txt img{
+		display: block;
+		float: left;
+		width: 50px;
+		margin-left: 20px;
+	}
 	.contact-us-form .quote-txt{
-		background-color: #eeb72d;
+		background-color: #269fa0;
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
 		font-weight: 600;
-		font-size: 24px;
+		font-size: 22px;
+		text-align: center;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		letter-spacing: 2px;
+		margin-bottom: 0;
+		
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+
+	.contact-us-form .quote-txt span{
+		background-color: #269fa0;
+		color: #fff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 11px;
 		text-align: center;
 		padding-top: 11px;
 		padding-bottom: 11px;
 		letter-spacing: 2px;
 		margin-bottom: 0;
-		position: absolute;
-		top: -25px;
-		width: 88%;
+		
 		border-radius: 5px;
 		text-transform: uppercase;
 	}
@@ -3300,7 +3384,7 @@ text-align: left;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	border-radius: 3px;
-	background-color: #eeb72d;
+	background-color: #eab93e;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 12px;
@@ -3315,12 +3399,17 @@ text-align: left;
 
 	}
 
+	.contact-us-form .form-group{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	.contact-us-form .contact-form-control{
 	font-size: 14px;
 	color: #1d7071;
-	background:#e5f6f5;
-
-	border:1.5px solid #fff;
+	background:transparent;
+     border-top:none;border-left:2px solid transparent;border-right: none;
+	border-bottom:1.5px solid #1d7071;
 	border-radius: 1px;
 	font-family: 'Poppins', sans-serif;
 	padding-top:13px;
@@ -3344,6 +3433,19 @@ text-align: left;
 	color: #1d7071;
 	}
 
+	.form-control:focus {
+		border-left:2px solid #17d2d3;
+		color: transparent;
+		border-top: 1px solid transparent !important;
+		color: #1d7071;
+		outline:0px !important;
+		-webkit-appearance:none;
+		box-shadow: none !important
+	  }
+
+	  .contact-us-form  .textarea-box{
+		  border: 1.5px solid #1d7071;
+	  }
 
 	.contact-us-form .select-title{
 	font-size: 16px;
