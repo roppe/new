@@ -2499,7 +2499,7 @@ font-family: 'Mulish', sans-serif;
 .bottom-text .btn-10 {
 		font-weight: 600;
 		color: #fff;
-		background-color: #eeb72d;
+		background-color: #00b5b7;
 		font-size: 18px;
 		text-align: center;
 		margin-top: 20px;
@@ -2726,6 +2726,9 @@ text-align: left;
 
 	/* INDEX HOME PAGE CSS*/
 
+	.top-home{
+		margin-top:99px;
+	}
 	#myCarousel .carousel-item .carousel-caption h3{
 		color:#fff;
 		font-family: 'Mulish', sans-serif;
@@ -2973,7 +2976,7 @@ text-align: left;
 		#section-services .left-one .btn-5{
 			font-weight: 400;
 			color: #fff;
-			background-color: #eeb72d;
+		  border: 1.5px solid #fff;
 			font-size: 16px;
 			text-align: center;
 			margin-top: 20px;
@@ -3033,7 +3036,7 @@ text-align: left;
 		.quote-btn-2 {
 			font-weight: 600;
 			color: #fff;
-			background-color: #eeb72d;
+			background-color: #00b5b7;
 			font-size: 16px;
 			text-align: center;
 			margin-top: 20px;
@@ -3158,7 +3161,7 @@ text-align: left;
 	#main-description .btn-go-com {
 	font-weight: 400;
 	color: #fff;
-	background-color: #eeb72d;
+	background-color: #00b5b7;
 	font-size: 16px;
 	text-align: center;
 	margin-top: 20px;
@@ -3206,7 +3209,7 @@ text-align: left;
 	.warranty-banner .btn-10 {
 	font-weight: 600;
 	color: #fff;
-	background-color: #eeb72d;
+	border:1.5px solid #fff;
 	font-size: 16px;
 	text-align: center;
 	margin-top: 30px;
@@ -3384,7 +3387,7 @@ text-align: left;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	border-radius: 3px;
-	background-color: #eab93e;
+	background-color: #00b5b7;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 12px;
@@ -3507,6 +3510,27 @@ text-align: left;
 	font-size: 16px;
 	font-weight: 600;
 
+	}
+
+	.small-social{
+		display: block;
+		list-style-type: none;
+		float: right;
+		margin-bottom: 0;
+		padding-left: 120px;
+		margin-top: 20px;
+	}
+
+	.small-social li{
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	.small-social li p{
+		font-family: 'Poppins', sans-serif;
+	color: #1d7071;
+	font-size: 16px;
+	font-weight: 600;	
 	}
 
 
