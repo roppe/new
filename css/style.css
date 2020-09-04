@@ -3553,7 +3553,37 @@ text-align: left;
 	font-weight: 600;	
 	}
 
+	.green{
 
+	}
+
+	.green {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		color: #1d7071;
+		font-size: 20px;
+		text-align: center;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-family: 'Poppins', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.town {
+	
+		font-weight: 500;
+		color: #4b5b68;
+		font-size: 13px;
+		text-align: left;
+		margin-top: 5;
+		font-family: 'Poppins', sans-serif;
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 0;
+	}
 
 
 
